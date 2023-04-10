@@ -9,3 +9,1141 @@ Version:      1.0.0
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+/* CSS Backup 09.04.2023 */
+
+/* ------BODY----- */
+
+/* BEGIN: Background color  */
+body {
+  background-color: #ffffff !important;
+  font-family: DM Sans, sans-serif;
+  color: rgba(15, 23, 39, 0.65) !important;
+}
+
+.header-navbar__burger {
+  color: black;
+}
+
+.header-navbar {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+ol {
+  color: black;
+}
+
+ul {
+  color: black;
+}
+
+/******* HIDE SEARCH */
+
+/* BEG: HEADING color  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+/* END: HEADING color  */
+
+/* HERO */
+
+/* ------BODY----- */
+
+/* ------NAVBAR----- */
+
+/* BEGIN: NAVBAR STICKY  */
+
+body {
+  padding-top: 72px;
+}
+
+.header-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 0px 0 rgba(0, 0, 0, 0.06);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+/* END: NAVBAR STICKY  */
+
+/* ------NAVBAR----- */
+
+/* ------HEADER----- */
+
+/* BEGIN: FILTER HEADER */
+
+.header-hero::before {
+  background-color: none;
+}
+
+/* END: FILTER HEADER  */
+
+/* ------HEADER----- */
+
+.hp-feature__icon::after,
+.wp-block-button.is-style-primary .wp-block-button__link {
+  background-color: black;
+}
+
+/* ------HOMEPAGE----- */
+
+/* BEGIN: FILTER HEADER */
+.hp-listing--view-block.hp-listing--featured {
+  border: grey;
+}
+/* END: FILTER HEADER */
+
+/* ICONS */
+
+/* ------MOBILE----- */
+
+/* .fc .fc-daygrid-day-bottom {
+	font-size: .65em;
+} */
+
+/* ------CATEGORY----- */
+
+/* BEGINNING: Hide Category HEADER */
+
+.header-hero.hp-listing-category.hp-listing-category--view-page {
+  display: none;
+}
+
+.page span[id^="more-"] + .hp-form--primary,
+.tax-hp_listing_category .hp-form--primary {
+  margin-top: 1rem;
+}
+
+/* END: Hide Category HEADER */
+
+/* BEGINNING: Hide Category COUNTER */
+
+.hp-listing-category--view-block .hp-listing-category__item-count,
+.hp-listing-category--view-page .hp-listing-category__item-count {
+  display: none;
+}
+
+/* END: Hide Category COUNTER */
+
+/* BEGIN: FILTER CATEGORY */
+
+.hp-listing-category--view-block .hp-listing-category__image::after {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.7)
+  );
+}
+
+/* END: FILTER CATEGORY */
+
+/* BEGIN: CATEGORY SELECT COLOR */
+
+.select2-container--default
+  .select2-results__option--highlighted[aria-selected] {
+  background-color: black;
+}
+
+/* END: CATEGORY SELECT COLOR   */
+
+/* BEGIN: Title Element - Choose Category during Signup */
+#content > div > div > div > main > h1::before {
+  background-color: transparent;
+}
+/* END: Title Element - Choose Category during Signup */
+
+/* BEGIN: Description during Registration / Step 2: Choose Category */
+
+/*.hp-template--listing-submit-category-page .hp-listing-categories{
+	margin-top: 30px;
+}*/
+
+/* END: Description during Registration / Step 2: Choose Category */
+
+/* BEGIN: HIDE SUBCATEGORIES during Registration / Step 2: Choose Category */
+
+.select2-results
+  .select2-results__options
+  #select2-_category-k0-result-wtmf-509 {
+  display: none !important;
+}
+
+/* END: HIDE SUBCATEGORIES during Registration / Step 2: Choose Category */
+
+/* BEGIN: HIDE SUBCATEGORY TAG on Thumbnails */
+
+.hp-listing__categories.hp-listing__category > a:nth-child(2) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(3) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(4) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(5) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(6) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(7) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(8) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(9) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(10) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(11) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(12) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(13) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(14) {
+  display: none;
+}
+
+.hp-listing__categories.hp-listing__category > a:nth-child(15) {
+  display: none;
+}
+
+/* END: HIDE SUBCATEGORIES on Thumbnails */
+
+/* BEG: HIDE SUBCATEGORIES on SEARCH FIELD */
+
+/* !!!!!!!!!!!!!!!!!!! */
+
+/* END: HIDE SUBCATEGORIES on SEARCH FIELD */
+
+/* ------CATEGORY----- */
+
+/* ------SEARCH----- */
+
+/* BEGIN: SEARCH HOMEPAGE */
+
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="max"],
+input[type="min"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="range"],
+input[type="search"],
+input[type="step"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="value"],
+select,
+textarea {
+  background-color: #fff;
+}
+
+.hp-form--primary .hp-form__field input[type="color"],
+.hp-form--primary .hp-form__field input[type="date"],
+.hp-form--primary .hp-form__field input[type="datetime"],
+.hp-form--primary .hp-form__field input[type="datetime-local"],
+.hp-form--primary .hp-form__field input[type="email"],
+.hp-form--primary .hp-form__field input[type="month"],
+.hp-form--primary .hp-form__field input[type="number"],
+.hp-form--primary .hp-form__field input[type="password"],
+.hp-form--primary .hp-form__field input[type="range"],
+.hp-form--primary .hp-form__field input[type="min"],
+.hp-form--primary .hp-form__field input[type="max"],
+.hp-form--primary .hp-form__field input[type="value"],
+.hp-form--primary .hp-form__field input[type="step"],
+.hp-form--primary .hp-form__field input[type="search"],
+.hp-form--primary .hp-form__field input[type="tel"],
+.hp-form--primary .hp-form__field input[type="text"],
+.hp-form--primary .hp-form__field input[type="time"],
+.hp-form--primary .hp-form__field input[type="url"],
+.hp-form--primary .hp-form__field select,
+.hp-form--primary .hp-form__field textarea {
+  color: black;
+}
+
+.select2-container--default .select2-selection .select2-selection__rendered {
+  color: black;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+  background: #e44252;
+  border-color: #e44252;
+  border-bottom-color: #e44252;
+  border-left-color: #e44252;
+  border-right-color: #e44252;
+  border-top-color: #e44252;
+}
+
+.hp-form--primary {
+  border-radius: 7px;
+}
+
+/* hide Tag field */
+#listing_filter_modal > form > div.hp-form__fields > div:nth-child(12) {
+  display: none;
+}
+
+#listing_filter_modal > form > div.hp-form__fields > div:nth-child(14) {
+  display: none;
+}
+
+/* Host Search */
+.hp-form--vendor-search {
+  display: none;
+}
+
+/* ------SEARCH----- */
+
+/* - BUTTONS, LINKS, ICONS - */
+
+a:hover {
+  color: #f1c064;
+}
+
+/* Coloring all ICONS */
+.hp-listing__verified-badge {
+  color: black;
+}
+
+.hp-listing__verified {
+  color: black;
+}
+
+.fas {
+  color: black;
+}
+
+.fa-check-circle {
+  color: black;
+}
+
+.hp-listing--view-block .hp-listing__verified-badge,
+.hp-listing--view-page .hp-listing__verified-badge {
+  color: #f1c064;
+}
+
+.hp-vendor--view-block .hp-vendor__verified-badge,
+.hp-vendor--view-page .hp-vendor__verified-badge {
+  color: #f1c064;
+}
+
+.hp-listing--view-block .hp-listing__featured-badge i::before {
+  display: none;
+}
+
+.hp-listing--view-block
+  .hp-listing__attributes--secondary
+  .hp-listing__attribute
+  i,
+.hp-listing--view-page
+  .hp-listing__attributes--secondary
+  .hp-listing__attribute
+  i {
+  color: rgba(15, 23, 39, 0.65);
+}
+
+/* content title before */
+.content-title::before {
+  display: none;
+}
+
+/* Button http://moyatvoya.ru/submit-listing/profile/ */
+#content > div > div > div > div > form > div.hp-form__footer > button {
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+
+/* BUTTONS BORDER RADIUS: LARGE RED */
+.header-hero {
+  border-radius: 7px;
+}
+
+/* BUTTON PRIMARY SUBMIT LISTING */
+
+/* HIDE Submit Listing Button */
+.hp-menu--site-header button {
+  display: none;
+}
+
+/* OLD BUTTON
+.hp-menu--site-header button {
+	background-image: none;
+	border-radius: 7px;
+	box-shadow: none !important;
+	color: white;
+	font-size: 15px;
+	font-weight: normal;
+}
+*/
+
+/* Submit Listing Color in footer */
+#menu-item-5048 > a {
+  font-weight: bold;
+}
+
+/* BEG: BUTTON SECONDARY MESSAGE */
+
+.button--secondary {
+  background-color: black;
+  background-image: none;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+
+/*
+.button--primary::before, .button--secondary::before {
+	background-color: black;
+	background-image: none;
+		border-radius: 7px;
+		box-shadow: none !important;
+
+}
+*/
+
+/* BUTTON Send MESSAGE Vendor */
+
+#message_send_modal_1629 > form > div.hp-form__footer > button {
+  background-color: #f1c064;
+}
+
+/* BEG: BUTTON BOOK NOW */
+
+.hp-form--narrow .hp-form__button {
+  background-color: #f1c064;
+  background-image: none;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+
+/* END: BUTTON BOOK NOW */
+
+/* BEG: BUTTON SEARCH NOW */
+
+.hp-form--primary .hp-form__button {
+  background-image: none;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+/* END: BUTTON SEARCH NOW */
+
+/* ----BUTTONS & LINKS--- */
+
+/* ------FILTER PAGE----- */
+
+/* BEGINNING: Thin BORDER around > LOCTAION and DATE in SEARCH */
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="range"],
+input[type="min"],
+input[type="max"],
+input[type="value"],
+input[type="step"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+select {
+  border-width: 1px 1px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+}
+
+/* END: Thin BORDER around > LOCTAION and DATE */
+
+/* BEGINNING: Thin BORDER around > KROBAT, CПАЛьНИ, ВАН. КО., ДОМА. ПИ. */
+.select2-container--default .select2-selection {
+  border-width: 1px 1px;
+  border-radius: 4px;
+}
+
+.select2-container--default .select2-selection .select2-selection__rendered {
+  padding-left: 16px;
+  border-top: none;
+}
+
+.select2-container--default .select2-dropdown,
+.select2-container--default .select2-search .select2-search__field,
+.select2-container--default .select2-selection {
+  border-color: rgba(7, 36, 86, 0.075);
+}
+/* END: Color BORDER */
+
+/* DELETE TAG FILTER */
+
+/*#listing_filter_modal > form > div.hp-form__fields > div:nth-child(14) {display:none;}
+
+#listing_filter_modal > form > div.hp-form__fields > div:nth-child(11) {display:none;} */
+
+/* BEGINNING: Selector */
+.select2-container--default .select2-selection .select2-selection__arrow {
+  right: 0.5rem;
+}
+/* END: Selector */
+
+/* ------FILTER PAGE----- */
+
+/* ------LINSTINGS PAGE----- */
+
+/* PRICE COLOR */
+.content-slider .slick-arrow:hover,
+.pagination > span:not(.dots),
+.pagination .nav-links > span:not(.dots),
+.pagination ul li span.current:not(.dots),
+.hp-listing--view-block .hp-listing__location i,
+.hp-listing--view-page .hp-listing__location i,
+.hp-listing--view-block .hp-listing__attributes--primary .hp-listing__attribute,
+.hp-listing--view-page .hp-listing__attributes--primary .hp-listing__attribute,
+.hp-vendor--view-block .hp-vendor__attributes--primary .hp-vendor__attribute,
+.hp-vendor--view-page .hp-vendor__attributes--primary .hp-vendor__attribute,
+.hp-offer__attributes--primary .hp-offer__attribute,
+.hp-feature__icon,
+.woocommerce nav.woocommerce-pagination > span:not(.dots),
+.woocommerce nav.woocommerce-pagination .nav-links > span:not(.dots),
+.woocommerce nav.woocommerce-pagination ul li span.current:not(.dots) {
+  color: black;
+}
+
+/* END: PRICE COLOR */
+
+/* Filling details */
+
+.hp-field__description {
+  color: black;
+}
+
+/* Line before title */
+.header-hero,
+.content-title::before,
+.post--archive .post__categories a,
+.wp-block-button.is-style-secondary .wp-block-button__link,
+.hp-page__title::before,
+.hp-section__title::before,
+.hp-listing--view-page .hp-listing__categories a {
+  background-color: white;
+}
+
+/* Superhost Host Badge */
+#content
+  > div
+  > div
+  > div
+  > div
+  > aside
+  > div
+  > div
+  > div.hp-listing__topbar.hp-widget.widget.widget--sidebar
+  > div
+  > div.hp-listing__attribute.hp-listing__attribute--superhost
+  > i {
+  color: #f1c064;
+}
+
+#content
+  > div
+  > div
+  > div
+  > div
+  > aside
+  > div
+  > div
+  > div.hp-vendor__attributes.hp-vendor__attributes--primary.widget.hp-widget
+  > div
+  > i {
+  color: #f1c064;
+}
+
+.fa-certificate:before {
+  color: #f1c064;
+}
+
+/* ------LISTINGS PAGE----- */
+
+/* ------SHOP PAGE----- */
+
+/* Add listint button on shop */
+body
+  > div.site-container
+  > header
+  > div
+  > div.header-navbar__end
+  > div.header-navbar__actions
+  > div
+  > button {
+  display: none;
+}
+
+.woocommerce div.product form.cart .button {
+  background-color: #f1c064;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+
+.woocommerce ul.products li.product .button {
+  color: white;
+  background-color: #f1c064;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+
+mark {
+  display: none;
+}
+
+/* Search button */
+.dgwt-wcas-sf-wrapp button.dgwt-wcas-search-submit {
+  box-shadow: none !important;
+}
+
+/* ------VENDOR ACCOUNT----- */
+
+.hp-link i {
+  color: black;
+}
+
+/* go to payment Button */
+#content
+  > div
+  > div
+  > div
+  > div
+  > aside
+  > div
+  > div
+  > div
+  > div.hp-listing__actions.hp-listing__actions--primary.hp-widget.widget
+  > button.hp-listing__action.hp-listing__action--pay.button.button--large.button--primary.alt {
+  background-color: #f1c064;
+}
+
+#content
+  > div
+  > div
+  > div
+  > div
+  > aside
+  > div
+  > div
+  > div
+  > div.hp-listing__actions.hp-listing__actions--primary.hp-widget.widget
+  > button.hp-listing__action.hp-listing__action--accept.button.button--large.button--primary.alt {
+  background-color: #f1c064;
+}
+
+/* send message Button */
+#content
+  > div
+  > div
+  > div
+  > div
+  > aside
+  > div
+  > div
+  > div
+  > div.hp-listing__actions.hp-listing__actions--primary.hp-widget.widget
+  > button.hp-listing__action.hp-listing__action--message.button.button--large.button--primary.alt {
+  background-color: black;
+}
+
+.hp-listing--view-block .hp-listing__actions--primary .hp-listing__action i {
+  color: black;
+}
+
+#content
+  > div
+  > div
+  > div
+  > div
+  > aside
+  > div
+  > div
+  > form
+  > div.hp-form__fields
+  > div.hp-form__field.hp-form__field--number {
+  display: none !important;
+}
+
+/* temprorary: show Name on booking page */
+.hp-booking .hp-listing__created-date {
+  display: block !important;
+}
+
+/* temprorary: show Name on booking page color of the link */
+.hp-listing--view-block .hp-listing__created-date,
+.hp-listing--view-page .hp-listing__created-date {
+  text-transform: capitalize;
+  font-size: 0.8rem;
+}
+
+/*** Price display correction on individual calendars ***/
+
+/* Weeksdays */
+.fc .fc-col-header-cell-cushion {
+  font-size: 1em;
+}
+
+/* font-size */
+
+.fc-daygrid-day-number {
+  font-size: 0.65em;
+}
+
+/* align text center */
+
+td,
+th {
+  text-align: center;
+}
+
+/* take padding away */
+.fc .fc-daygrid-day-number {
+  padding: 0px;
+}
+
+.fc .fc-daygrid-day-top {
+  justify-content: center;
+}
+/* ------VENDOR ACCOUNT----- */
+
+/* ------HOST PAGE----- */
+
+#content
+  > div
+  > div
+  > div
+  > div
+  > aside
+  > div
+  > div
+  > div.hp-vendor__actions.hp-vendor__actions--primary.hp-widget.widget
+  > button {
+  background-color: black;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+
+/* ---Впечатления Registration PAGE /predlagaem-uslugu/-- */
+.frm_style_formidable-style.with_frm_style
+  .frm_compact
+  .frm_dropzone.dz-clickable
+  .dz-message,
+.frm_style_formidable-style.with_frm_style input[type="submit"],
+.frm_style_formidable-style.with_frm_style .frm_submit input[type="button"],
+.frm_style_formidable-style.with_frm_style .frm_submit button,
+.frm_form_submit_style,
+.frm_style_formidable-style.with_frm_style .frm-edit-page-btn {
+  border-color: #f1c064;
+  background: #f1c064;
+  border-radius: 7px;
+  box-shadow: none !important;
+}
+
+.with_frm_style .frm_primary_label {
+  color: black;
+}
+
+/* ------FOOTER----- */
+
+/* BEGINNING: FOOTER */
+.site-footer {
+  background-color: #f8f7f5;
+  padding-top: 5rem;
+  font-size: 14px;
+}
+
+.footer-navbar__menu ul li a {
+  font-size: 14px;
+}
+
+h5.widget__title {
+  font-size: 15px;
+}
+
+.widget_archive li a,
+.widget_categories li a,
+.widget_meta li a,
+.widget_nav_menu li a,
+.widget_pages li a,
+.widget_product_categories li a,
+.widget_recent_entries li a,
+.wp-block-archives li a,
+.wp-block-categories li a,
+.wp-block-latest-posts li a,
+.wp-block-rss li a {
+  font-size: 14px;
+}
+
+div#nav_menu-2.widget.widget--footer.widget_nav_menu {
+  padding-left: 0rem;
+}
+
+div#nav_menu-3.widget.widget--footer.widget_nav_menu {
+  padding-left: 0rem;
+}
+
+.widget_archive li::before,
+.widget_categories li::before,
+.widget_meta li::before,
+.widget_nav_menu li::before,
+.widget_product_categories li::before,
+.wp-block-archives li::before,
+.wp-block-categories li::before {
+  display: none;
+}
+
+.widget_pages li::before,
+.widget_recent_entries li::before,
+.wp-block-latest-posts li::before,
+.wp-block-rss li::before {
+  display: none;
+}
+
+h5.widget__title {
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+#recent-posts-3 > h5 {
+  padding-left: 1.3rem;
+}
+/* END: FOOTER */
+
+/* ------FOOTER----- */
+
+/* ------CHECKOUT PAGE----- */
+
+/* BEGINNING: PRE-Checkout DATES */
+
+.hp-page__title::before {
+  background-color: white;
+}
+
+.hp-page__title:not(:last-child) {
+  display: none;
+}
+
+/* END: PRE-Checkout DATES */
+
+/* BEGINNING: Color of the COUPON Banner */
+
+.woocommerce-info {
+  border-top-color: #f1c064;
+}
+
+.woocommerce-info::before {
+  color: #f1c064;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+  background-color: #f8f7f5;
+}
+
+.woocommerce #add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background-color: #f8f7f5;
+}
+
+.hp-field__label {
+  color: black;
+}
+
+/* Button for Coupon */
+#content
+  > div
+  > div
+  > div
+  > form.checkout_coupon.woocommerce-form-coupon
+  > p.form-row.form-row-last
+  > button {
+  border-radius: 7px;
+}
+
+/* END: Color of the COUPON Banner */
+
+/* BEG: CHECKOUT PAGE */
+
+/* hide header */
+.page-id-347 .header-hero__content .page__title {
+  display: none !important;
+}
+
+.woocommerce-additional-fields {
+  display: none;
+}
+
+span.xoo-ml-reg-phone-change,
+span.xoo-ml-inline-verify,
+span.xoo-ml-otp-submit-btn {
+  color: #f1c064;
+}
+
+.woocommerce form .form-row label,
+.woocommerce-page form .form-row label {
+  color: black;
+  font-size: 12px;
+}
+
+/* phone */
+.xoo-ml-inline-otp-cont span.xoo-ml-otp-no-txt {
+  color: #f1c064;
+}
+
+/* column details page */
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1 {
+  width: 100%;
+}
+
+/* fields border */
+.woocommerce form .form-row.woocommerce-validated .select2-container,
+.woocommerce form .form-row.woocommerce-validated input.input-text,
+.woocommerce form .form-row.woocommerce-validated select {
+  border-color: black;
+}
+
+.woocommerce-checkout-review-order {
+  background-color: #f8f7f5;
+  border-radius: 7px;
+}
+
+/* button review booking */
+#content > div > div > div > div > div > form > div.hp-form__footer > button {
+  border-radius: 7px;
+  box-shadow: 0px 0px 0px;
+}
+
+#content > div > div > div > div > div > button {
+  background-color: #f1c064;
+}
+
+/* button float */
+.woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order {
+  float: left;
+}
+
+/* button radius */
+#place_order {
+  border-radius: 7px;
+}
+
+#add_payment_method #payment ul.payment_methods,
+.woocommerce-cart #payment ul.payment_methods,
+.woocommerce-checkout #payment ul.payment_methods {
+  border-bottom: 0px solid #d3ced2;
+}
+
+/* border style dotted */
+.woocommerce table.shop_table tbody th,
+.woocommerce table.shop_table tfoot td,
+.woocommerce table.shop_table tfoot th {
+  border-style: dotted;
+}
+
+/* element before title */
+.woocommerce #add_payment_method #payment div.payment_box::before,
+.woocommerce-cart #payment div.payment_box::before,
+.woocommerce-checkout #payment div.payment_box::before {
+  display: none;
+}
+
+/* Robokassa Title */
+#payment > ul > li.wc_payment_method.payment_method_all > label {
+  font-weight: bold;
+  color: black;
+}
+/* PAYPAL Title */
+#payment > ul > li.wc_payment_method.payment_method_ppcp-gateway > label {
+  font-weight: bold;
+  color: black;
+}
+
+/* BOX with payment descr. */
+.woocommerce #add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {
+  background-color: #ffecee;
+}
+
+.woocommerce table.shop_table td:first-child,
+.woocommerce table.shop_table th:first-child {
+  padding-left: 1rem;
+}
+
+.woocommerce table.shop_table td,
+.woocommerce table.shop_table th {
+  border-width: 0 0 0px;
+}
+
+/* quantity number */
+#order_review > table > tbody > tr > td.product-name > strong {
+  font-weight: normal;
+}
+
+/* Hide prepayment info */
+#order_review > table > tbody > tr > td.product-name > dl > dt.variation-95 {
+  display: none;
+}
+
+#order_review
+  > table
+  > tbody
+  > tr
+  > td.product-name
+  > dl
+  > dd.variation-95
+  > p
+  > span {
+  display: none;
+}
+
+#order_review > table > tbody > tr > td.product-name > dl > dt.variation- {
+  display: none;
+}
+
+#order_review
+  > table
+  > tbody
+  > tr
+  > td.product-name
+  > dl
+  > dd.variation-
+  > p
+  > span {
+  display: none;
+}
+
+#order_review > table > tfoot > tr.order-paid > th {
+  background-color: #ffecee;
+  color: black;
+  font-weight: normal;
+}
+
+#order_review > table > tfoot > tr.order-paid > td {
+  background-color: #ffecee;
+  color: black;
+}
+
+#order_review > table > tfoot > tr.order-paid > td > strong > span {
+  font-weight: normal;
+  color: black;
+}
+
+#order_review > table > tfoot > tr.order-remaining > th {
+  font-weight: normal;
+  color: black;
+}
+
+#order_review > table > tfoot > tr.order-remaining > td > strong > span {
+  font-weight: normal;
+  color: black;
+}
+
+/* END: CHECKOUT PAGE */
+
+/* BEG: Color of BUTTON AFTER Checkout to PAY */
+
+/* END: Color of BUTTON AFTER Checkout to PAY */
+
+/* ------CHECKOUT PAGE----- */
+
+/* ------WOOCOMMERCE SITE NOTE----- */
+
+.woocommerce-store-notice,
+p.demo_store {
+  background-color: #f1c064;
+}
+
+#product-10258
+  > div.summary.entry-summary
+  > form
+  > div.awcdp-deposits-wrapper
+  > div
+  > div:nth-child(2) {
+  display: none;
+}
+
+/** MEDIA QUERIES **/
+
+/* Mobile arrows left and right */
+@media only screen and (max-width: 47.99em) {
+  .content-slider .slick-arrow {
+    color: white;
+    background: lightgray;
+  }
+}
