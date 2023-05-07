@@ -17,6 +17,7 @@ add_action( 'wp_enqueue_scripts', 'your_theme_enqueue_styles' );
 // Add functions here //
 
 // Admin
+require_once(__DIR__ . '/includes/cron-actionscheduler-purge.php');
 
 // Global
 require_once( __DIR__ . '/includes/global-allow-svg.php');
@@ -37,5 +38,6 @@ require_once( __DIR__ . '/includes/guest-booking-note.php');
 
 // Listings
 require_once( __DIR__ . '/includes/listing-display-format-price.php');
+
 
 
